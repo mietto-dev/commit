@@ -1,0 +1,42 @@
+{
+  "name": "commit",
+  "version": "1.0.0",
+  "description": "Command line utilities for commit messages, version increment and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mietto-dev/commit.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "semver",
+    "semantic",
+    "commit"
+  ],
+  "author": "Felipe Mietto <mietto.ti@gmail.com>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/mietto-dev/commit/issues"
+  },
+  "homepage": "https://github.com/mietto-dev/commit#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
